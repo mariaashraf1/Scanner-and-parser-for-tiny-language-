@@ -1,0 +1,11 @@
+graph syntaxTree {
+node [fontname="Arial"];
+node[shape = rect label="READ\n(x)"]id1 node[shape = rect label="IF"]id2 id3 [shape=oval, label="OP\n(<)"];
+id4 [shape=oval, label="Const\n(0)"];
+id3--id4 node[shape = oval label="IDENTIFIER\n(x)"]id5 id3--id5 {rank = same; id4; id5; } id4--id5 [style = invis]; id2--id3 node[shape = rect label="ASSIGN\n(fact)"]id6 id7 [shape=oval, label="Const\n(1)"];
+id6--id7 node[shape = rect label="REPEAT"]id8 node[shape = rect label="ASSIGN\n(fact)"]id9 id10 [shape=oval, label="OP\n(*)"];
+node[shape = oval label="IDENTIFIER\n(fact)"]id11 id10--id11 node[shape = oval label="IDENTIFIER\n(x)"]id12 id10--id12 {rank = same; id11; id12; } id11--id12 [style = invis]; id9--id10 node[shape = rect label="ASSIGN\n(x)"]id13 id14 [shape=oval, label="OP\n(-)"];
+node[shape = oval label="IDENTIFIER\n(x)"]id15 id14--id15 id16 [shape=oval, label="Const\n(1)"];
+id14--id16 {rank = same; id15; id16; } id15--id16 [style = invis]; id13--id14 {rank = same; id9; id13; } id9--id13 id8--id9 id17 [shape=oval, label="OP\n(=)"];
+node[shape = oval label="IDENTIFIER\n(x)"]id18 id17--id18 id19 [shape=oval, label="Const\n(0)"];
+id17--id19 {rank = same; id18; id19; } id18--id19 [style = invis]; id8--id17 node[shape = rect label="WRITE"]id20 node[shape = oval label="IDENTIFIER\n(fact)"]id21 id20--id21 {rank = same; id8; id20; } id8--id20 {rank = same; id6; id8; } id6--id8 id2--id6 {rank = same; id3; id6; } id3--id6 [style = invis]; {rank = same; id1; id2; } id1--id2 }

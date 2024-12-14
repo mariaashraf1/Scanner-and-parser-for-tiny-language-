@@ -1,0 +1,6 @@
+C:\jan\CSE Senior\Compilers\Parser\GUIP\GUIP\x64\Release\GUIP.vcxproj.AssemblyReference.cache
+C:\jan\CSE Senior\Compilers\Parser\GUIP\GUIP\x64\Release\GUIP.MyForm.resources
+C:\jan\CSE Senior\Compilers\Parser\GUIP\GUIP\x64\Release\GUIP.vcxproj.GenerateResource.cache
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Release\GUIP.vcxproj.AssemblyReference.cache
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Release\GUIP.MyForm.resources
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Release\GUIP.vcxproj.GenerateResource.cache

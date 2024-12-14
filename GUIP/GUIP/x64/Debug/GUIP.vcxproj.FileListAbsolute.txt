@@ -1,0 +1,3 @@
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Debug\GUIP.vcxproj.AssemblyReference.cache
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Debug\GUIP.MyForm.resources
+D:\senior 2\compilers\Scanner-Parser-GUI-main(v4) - Copy\Scanner-Parser-GUI-main\GUIP\GUIP\x64\Debug\GUIP.vcxproj.GenerateResource.cache

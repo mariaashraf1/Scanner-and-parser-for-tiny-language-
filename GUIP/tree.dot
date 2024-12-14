@@ -1,0 +1,8 @@
+graph syntaxTree {
+node [fontname="Arial"];
+node[shape = rect label="READ\n(x)"]id1 node[shape = rect label="ASSIGN\n(x)"]id2 id3 [shape=oval, label="Const\n(10)"];
+id2--id3 node[shape = rect label="IF"]id4 id5 [shape=oval, label="OP\n(<)"];
+node[shape = oval label="IDENTIFIER\n(x)"]id6 id5--id6 id7 [shape=oval, label="Const\n(20)"];
+id5--id7 {rank = same; id6; id7; } id6--id7 [style = invis]; id4--id5 node[shape = rect label="READ\n(y)"]id8 node[shape = rect label="ASSIGN\n(y)"]id9 id10 [shape=oval, label="OP\n(+)"];
+node[shape = oval label="IDENTIFIER\n(x)"]id11 id10--id11 id12 [shape=oval, label="Const\n(5)"];
+id10--id12 {rank = same; id11; id12; } id11--id12 [style = invis]; id9--id10 node[shape = rect label="WRITE"]id13 node[shape = oval label="IDENTIFIER\n(y)"]id14 id13--id14 node[shape = oval label="invalid statement\n(ERROR)"]id15 {rank = same; id13; id15; } id13--id15 {rank = same; id9; id13; } id9--id13 {rank = same; id8; id9; } id8--id9 id4--id8 {rank = same; id5; id8; } id5--id8 [style = invis]; {rank = same; id2; id4; } id2--id4 {rank = same; id1; id2; } id1--id2 }
